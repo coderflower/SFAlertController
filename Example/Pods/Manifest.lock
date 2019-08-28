@@ -1,0 +1,16 @@
+PODS:
+  - SFAlertController (0.1.0)
+
+DEPENDENCIES:
+  - SFAlertController (from `../`)
+
+EXTERNAL SOURCES:
+  SFAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SFAlertController: d68c4da2b214de1c2a43fb8956a7c0a729de209e
+
+PODFILE CHECKSUM: 4c469a0ecc4d309ed47d7df139321f56f647f701
+
+COCOAPODS: 1.7.1
