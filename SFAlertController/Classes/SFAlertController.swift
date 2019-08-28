@@ -379,10 +379,6 @@ private extension SFAlertController {
     }
     
     private func tappedButtonAtIndex(_ index: Int, buttonType: SFAlertController.AlertButton?) {
-        /// 如果是disabled 就无反应
-        guard buttonType?.isDsiabled != true else {
-            return
-        }
         dismiss(animated: false)
         completion?(index, buttonType)
     }

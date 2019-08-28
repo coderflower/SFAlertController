@@ -21,7 +21,6 @@ class SFAlertCell: UITableViewCell {
         $0.setTitleColor(UIColor(red: 0, green: 0.48, blue: 1, alpha: 1), for: .selected)
         $0.setTitleColor(UIColor.black, for: .normal)
         $0.backgroundColor = UIColor.white
-        $0.setTitleColor(UIColor.black.withAlphaComponent(0.25), for: .disabled)
         $0.titleLabel?.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
         $0.addTarget(self, action: #selector(leftButtonTapped), for: .touchUpInside)
         return $0
@@ -32,7 +31,6 @@ class SFAlertCell: UITableViewCell {
         $0.setTitleColor(UIColor(red: 0, green: 0.48, blue: 1, alpha: 1), for: .selected)
         $0.setTitleColor(UIColor.black, for: .normal)
         $0.backgroundColor = UIColor.white
-        $0.setTitleColor(UIColor.black.withAlphaComponent(0.25), for: .disabled)
         $0.addTarget(self, action: #selector(rightButtonTapped), for: .touchUpInside)
         return $0
     }(UIButton(type: .custom))
@@ -95,20 +93,6 @@ extension SFAlertCell {
     }
 
     private func configButton(_ button: UIButton, using type: SFAlertController.AlertButton) {
-        switch type {
-        case .cancel:
-            button.isEnabled = true
-            button.isSelected = false
-        case .disabled:
-            button.isEnabled = false
-            button.isSelected = false
-        case .default:
-            button.isEnabled = true
-            button.isSelected = false
-        case .destructive:
-            button.isEnabled = true
-            button.isSelected = true
-        }
         button.setTitle(type.title, for: .normal)
         button.isHidden = false
     }
