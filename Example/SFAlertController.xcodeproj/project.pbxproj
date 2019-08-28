@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		277D6A4A2B6DE3530E434D9E /* Pods-SFAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFAlertController_Tests.release.xcconfig"; path = "Target Support Files/Pods-SFAlertController_Tests/Pods-SFAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		32C15F087A20F744552C3391 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		32C15F087A20F744552C3391 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		38ABB746688193A31128ACB5 /* Pods-SFAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFAlertController_Example.debug.xcconfig"; path = "Target Support Files/Pods-SFAlertController_Example/Pods-SFAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SFAlertController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFAlertController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		66D84903BDC96E5D836C1879 /* Pods-SFAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFAlertController_Example.release.xcconfig"; path = "Target Support Files/Pods-SFAlertController_Example/Pods-SFAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7174792DC9599BE17BD3E83A /* Pods_SFAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		760FAA778C2D020B6FA96CC5 /* Pods_SFAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DDB8621131E404BD07F4EAF /* SFAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SFAlertController.podspec; path = ../SFAlertController.podspec; sourceTree = "<group>"; };
-		C2703C77AB0ADD829059C907 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9DDB8621131E404BD07F4EAF /* SFAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SFAlertController.podspec; path = ../SFAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C2703C77AB0ADD829059C907 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F13FBC18D335EC921561D054 /* Pods-SFAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFAlertController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SFAlertController_Tests/Pods-SFAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				F13FBC18D335EC921561D054 /* Pods-SFAlertController_Tests.debug.xcconfig */,
 				277D6A4A2B6DE3530E434D9E /* Pods-SFAlertController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,7 +208,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = CocoaPods;
+				ORGANIZATIONNAME = "花菜";
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
