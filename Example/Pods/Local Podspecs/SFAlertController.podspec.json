@@ -1,22 +1,22 @@
 {
   "name": "SFAlertController",
   "version": "0.1.0",
-  "summary": "A short description of SFAlertController.",
+  "summary": "仿系统的UIAlertController,增加弹出自定义View功能.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/蔡龙君/SFAlertController",
+  "homepage": "https://github.com/coderflower/SFAlertController",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "蔡龙君": "cailongjun@huami.com"
+    "花菜": "developer.swifter@gmail.com"
   },
   "source": {
-    "git": "https://github.com/蔡龙君/SFAlertController.git",
+    "git": "https://github.com/coderflower/SFAlertController",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "SFAlertController/Classes/**/*"
 }

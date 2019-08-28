@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  SFAlertController
 //
-//  Created by 蔡龙君 on 08/28/2019.
-//  Copyright (c) 2019 蔡龙君. All rights reserved.
+//  Created by 花菜 on 08/28/2019.
+//  Copyright (c) 2019 花菜. All rights reserved.
 //
 
 import UIKit
