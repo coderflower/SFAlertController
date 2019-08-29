@@ -1,5 +1,5 @@
 //
-//  Extensions.swift
+//  SFAlertHeaderView+Additions.swift
 //  SFAlertController
 //
 //  Created by 花菜 on 2019/8/28.
@@ -7,7 +7,9 @@
 //
 
 import Foundation
+
 public extension SFAlertController {
+
     /// 显示样式
     enum Style: Int {
         case sheet
