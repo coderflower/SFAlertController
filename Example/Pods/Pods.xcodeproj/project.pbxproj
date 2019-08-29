@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F1900B3C7F6416A67F86B04ED1232CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		14DB41B15056D29094BC2A76F078A522 /* SFAlertHeaderView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D41A93545CD7058D722B3A3AEB1ED1 /* SFAlertHeaderView+Additions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		221EBBCF2318944B00291FE3 /* SFAlertControllerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221EBBCE2318944B00291FE3 /* SFAlertControllerConfiguration.swift */; };
 		379F4CABD18D2CECC5CAED531C898838 /* Pods-SFAlertController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B626EFAC08975ACD1D72997AE363FA /* Pods-SFAlertController_Tests-dummy.m */; };
 		541A78BC343E42A262AA97BA943E7337 /* SFAlertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCAE8D836C4FF8092BE7D762093546 /* SFAlertCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		8E9AA529F3D5985EC658FB2110674467 /* SFAlertHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8AB7A1F128ED508747181AE704DF0C /* SFAlertHeaderView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		02D41A93545CD7058D722B3A3AEB1ED1 /* SFAlertHeaderView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SFAlertHeaderView+Additions.swift"; path = "SFAlertController/Classes/SFAlertHeaderView+Additions.swift"; sourceTree = "<group>"; };
 		1C6B890CA362FA2D0669A301D1649B21 /* Pods-SFAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SFAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		221EBBCE2318944B00291FE3 /* SFAlertControllerConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SFAlertControllerConfiguration.swift; path = SFAlertController/Classes/SFAlertControllerConfiguration.swift; sourceTree = "<group>"; };
 		22F0A8DA43A7E529B82B7845234B1594 /* Pods_SFAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SFAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		268DF81E25042658D4B86D4786973748 /* SFAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SFAlertController-dummy.m"; sourceTree = "<group>"; };
 		273C6516FBC8CA13CF669B80782F9150 /* Pods-SFAlertController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SFAlertController_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				8DCCAE8D836C4FF8092BE7D762093546 /* SFAlertCell.swift */,
 				E6B03C055224813BC27285320ACD3937 /* SFAlertController.swift */,
 				3D8AB7A1F128ED508747181AE704DF0C /* SFAlertHeaderView.swift */,
+				221EBBCE2318944B00291FE3 /* SFAlertControllerConfiguration.swift */,
 				D7EECD4DB7F3EB740C7651104FBEA293 /* Pod */,
 				A213193E8DEFC79D4157B857A437E0B7 /* Support Files */,
 			);
@@ -375,6 +378,7 @@
 			files = (
 				14DB41B15056D29094BC2A76F078A522 /* SFAlertHeaderView+Additions.swift in Sources */,
 				541A78BC343E42A262AA97BA943E7337 /* SFAlertCell.swift in Sources */,
+				221EBBCF2318944B00291FE3 /* SFAlertControllerConfiguration.swift in Sources */,
 				EDD93FF51828B1EEB3C44AEB89DE5EAF /* SFAlertController-dummy.m in Sources */,
 				C922BD58B2D76B0C6FB07C36225F6C64 /* SFAlertController.swift in Sources */,
 				8E9AA529F3D5985EC658FB2110674467 /* SFAlertHeaderView.swift in Sources */,
