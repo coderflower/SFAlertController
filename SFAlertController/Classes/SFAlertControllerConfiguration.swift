@@ -7,29 +7,32 @@
 
 import UIKit
 
-public struct SFAlertControllerConfiguration {
+public class SFAlertControllerConfiguration {
+    /// 背景颜色
+    public var backgroundColor: UIColor = UIColor.white
     /// 内容距离上下左右间距
-    var insets: UIEdgeInsets = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
+    public var insets: UIEdgeInsets = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8)
     /// 标题颜色
-    var titleColor: UIColor = UIColor.black
+    public var titleColor: UIColor = UIColor.black
     /// 标题字体
-    var titleFont: UIFont = UIFont.systemFont(ofSize: 17, weight: .medium)
+    public var titleFont: UIFont = UIFont.systemFont(ofSize: 17, weight: .medium)
     /// message颜色
-    var messageColor: UIColor = UIColor.black
+    public var messageColor: UIColor = UIColor.black
     /// message字体
-    var messageFont: UIFont = UIFont.systemFont(ofSize: 13, weight: .regular)
+    public var messageFont: UIFont = UIFont.systemFont(ofSize: 13, weight: .regular)
     /// 分割线颜色
-    var separatorColor: UIColor = UIColor(red: 0, green: 0, blue: 0.31, alpha: 0.05)
+    public var separatorColor: UIColor = UIColor(red: 0, green: 0, blue: 0.31, alpha: 0.05)
     /// defaultButtonColor
-    var defaultButtonColor: UIColor = UIColor(red: 0, green: 0.48, blue: 1, alpha: 1)
+    public var defaultButtonColor: UIColor = UIColor(red: 0, green: 0.48, blue: 1, alpha: 1)
     /// cancelButtonColor
-    var cancelButtonColor: UIColor = UIColor(red: 0, green: 0.48, blue: 1, alpha: 1)
+    public var cancelButtonColor: UIColor = UIColor(red: 0, green: 0.48, blue: 1, alpha: 1)
     /// destructiveButtonColor
-    var destructiveButtonColor: UIColor = UIColor(red: 1, green: 0.23, blue: 0.19, alpha: 1)
+    public var destructiveButtonColor: UIColor = UIColor(red: 1, green: 0.23, blue: 0.19, alpha: 1)
     /// 子控件间距
-    var subviewSpacing: CGFloat = 10
+    public var subviewSpacing: CGFloat = 10
     
-    init(insets: UIEdgeInsets = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8),
+    public init(backgroundColor: UIColor = UIColor.white,
+         insets: UIEdgeInsets = UIEdgeInsets(top: 8, left: 8, bottom: 8, right: 8),
          titleColor: UIColor = UIColor.black,
          titleFont: UIFont = UIFont.systemFont(ofSize: 17, weight: .medium),
          messageColor: UIColor = UIColor.black,
@@ -40,6 +43,7 @@ public struct SFAlertControllerConfiguration {
          destructiveButtonColor: UIColor = UIColor(red: 1, green: 0.23, blue: 0.19, alpha: 1),
          subviewSpacing: CGFloat = 10
          ) {
+        self.backgroundColor = backgroundColor
         self.insets = insets
         self.titleColor = titleColor
         self.titleFont = titleFont
