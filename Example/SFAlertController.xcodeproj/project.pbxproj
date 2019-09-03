@@ -173,7 +173,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				12F9EAF494D82F92BEAF9312 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,24 +264,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		12F9EAF494D82F92BEAF9312 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SFAlertController_Example/Pods-SFAlertController_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SFAlertController/SFAlertController.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SFAlertController.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SFAlertController_Example/Pods-SFAlertController_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		20AE1A1D2B990D2CB09870AA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

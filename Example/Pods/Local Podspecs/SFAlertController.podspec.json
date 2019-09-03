@@ -1,6 +1,6 @@
 {
   "name": "SFAlertController",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "仿系统的UIAlertController,增加弹出自定义View功能.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/coderflower/SFAlertController",
@@ -13,10 +13,24 @@
   },
   "source": {
     "git": "https://github.com/coderflower/SFAlertController",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SFAlertController/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "SFAlertController/Classes/**/*",
+  "static_framework": true,
+  "default_subspecs": "source",
+  "subspecs": [
+    {
+      "name": "source",
+      "source_files": "UserProfileSDK/**/*.{h,m,swift}"
+    },
+    {
+      "name": "binary",
+      "vendored_frameworks": "Carthage/Build/iOS/Static/UserProfileSDK.framework"
+    }
+  ],
+  "swift_version": "5.0"
 }

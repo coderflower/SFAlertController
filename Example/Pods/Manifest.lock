@@ -1,5 +1,7 @@
 PODS:
-  - SFAlertController (0.1.0)
+  - SFAlertController (0.1.2):
+    - SFAlertController/source (= 0.1.2)
+  - SFAlertController/source (0.1.2)
 
 DEPENDENCIES:
   - SFAlertController (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SFAlertController: 803ed97245f5b7bb4dd18915a14cba10717eb5e0
+  SFAlertController: a7ea5f8bbe5c3114419ad5fef3e281966d2e3f98
 
 PODFILE CHECKSUM: 22cf7d03eb202798a49758e9b0249ecdf1ebe74c
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.7.5

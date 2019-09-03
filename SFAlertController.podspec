@@ -32,6 +32,13 @@ TODO: Add long description of the pod here.
   s.swift_version = '5.0'
   s.source_files = 'SFAlertController/Classes/**/*'
   s.static_framework = true
+  s.default_subspec = "Source"
+  s.subspec 'Source' do |Source|
+      Source.source_files = 'UserProfileSDK/**/*.{h,m,swift}'
+  end
+  s.subspec 'Binary' do |Binary|
+      Binary.vendored_frameworks = "Carthage/Build/iOS/Static/UserProfileSDK.framework"
+  end
   # s.resource_bundles = {
   #   'SFAlertController' => ['SFAlertController/Assets/*.png']
   # }
