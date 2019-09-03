@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SFAlertController'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '仿系统的UIAlertController,增加弹出自定义View功能.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
   s.source_files = 'SFAlertController/Classes/**/*'
-  
+  s.static_framework = true
   # s.resource_bundles = {
   #   'SFAlertController' => ['SFAlertController/Assets/*.png']
   # }
